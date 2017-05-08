@@ -1,0 +1,22 @@
+<div class="characters-background">
+  <div class="characters-search">
+
+    <input type="text" ng-model='name' placeholder='Character Name'>
+    <input type="text" ng-model='realm' placeholder='Server'>
+    <button style="height:20px; width:20px; border-radius:50%;" type="button" name="Search" ng-click='getCharacters(name, realm)'></button>
+    <div class="char_info">
+      <img ng-src='{{"http://render-api-us.worldofwarcraft.com/static-render/us/" + character.thumbnail}}' alt="" ng-show="character">
+      <br><a>Name:</a>{{character.name}}<br>
+      <a>Realm:</a>{{character.realm}}<br>
+      <a>Class:</a>{{class}}<br>
+      <a>Race:</a>{{race}}<br>
+      <a>Sex:</a>{{character.gender}}<br>
+      <a>Level:</a>{{character.level}}<br>
+      <a>Acheivements:</a>{{character.achievementPoints}}<br>
+      <a>Total Honorable Kills:</a>{{character.totalHonorableKills}}
+
+
+    </div>
+  </div>
+
+</div>

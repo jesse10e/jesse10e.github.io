@@ -1,0 +1,54 @@
+.characters-background {
+  background-image: url("http://i.imgur.com/xFx8IKW.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-position: right 0 top 0;
+  background-color: black; }
+
+.characters-search {
+  margin-top: 30px;
+  font-size: 25px;
+  color: antiquewhite; }
+
+.home-background {
+  background-image: url("http://i.imgur.com/sUWl70r.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-position: left 0 top 0; }
+
+.main-header {
+  display: flex;
+  position: absolute; }
+
+.main-links {
+  padding: 0 300px 0 0;
+  color: whitesmoke;
+  font: Helvetica, sans-serif;
+  font-size: 30px;
+  z-index: 5; }
+
+.home-header {
+  padding: 220px 0 0 0;
+  float: right;
+  width: 40%;
+  text-align: center;
+  color: lightblue;
+  font-size: 50px;
+  font: Helvetica, sans-serif; }
+
+.pvp-background {
+  background-image: url("http://i.imgur.com/FnT1Jwl.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-position: right 0 bottom 0;
+  background-color: black; }
+
+.pvp-search {
+  margin-top: 30px;
+  font-size: 25px; }

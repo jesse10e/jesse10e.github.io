@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app='armoryApp'>
+  <head>
+    <meta charset="utf-8">
+    <title>Armory App</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./bundle.css">
+  </head>
+  <body>
+  <div>
+    <header class='main-header'>
+    <a class='main-links' ui-sref='home'>Home</a>
+    <a class='main-links' ui-sref='characters'>Character Lookup</a>
+    <a class='main-links' ui-sref='pvp'>Leaderboard</a>
+    </header>
+<ui-view></ui-view>
+
+
+
+  </div>
+  </body>
+
+  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0/angular-ui-router.js"></script>
+  <script src='./bundled.js'></script>
+</html>

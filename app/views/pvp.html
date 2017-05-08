@@ -1,0 +1,15 @@
+<div class="pvp-background">
+  <div class="pvp-search">
+
+    <input type="text" ng-model='bracket' placeholder="Bracket">
+    <button style="height:20px; width:20px; border-radius:50%;" type="button" name="Search" ng-click='getLeaderboard(bracket)'></button>
+    <br>
+    <a>Search 2v2, 3v3, 5v5, or rbg</a>
+    <div class="pvp-text">
+      <div ng-repeat='result in bracketInfo'>
+        <p class ='pvp-text'>Name:{{result.name}}</p>
+      </div>
+    </div>
+  </div>
+
+</div>
